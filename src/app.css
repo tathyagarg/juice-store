@@ -1,5 +1,19 @@
 @import 'tailwindcss';
 
+@theme {
+    --color-hc-red: #ec3750;
+    --color-hc-orange: #ff8c37;
+    --color-hc-yellow: #f1c40f;
+    --color-hc-green: #33d6a6;
+    --color-hc-cyan: #5bc0de;
+    --color-hc-blue: #338eda;
+    --color-hc-purple: #a633d6;
+    --color-hc-muted: #8492a6;
+
+    --color-text: #f0f0f0;
+    --color-bg: #121217;
+    --color-border: #252429;
+}
 
 @font-face {
     font-family: 'Phantom Sans';
@@ -12,6 +26,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 
 * {
     font-family: "Phantom Sans", serif;
