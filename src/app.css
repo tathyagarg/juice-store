@@ -18,4 +18,5 @@
 * {
     font-family: "Phantom Sans", serif;
     font-size: 1.2rem;
+    @apply border-ctp-surface0;
 }

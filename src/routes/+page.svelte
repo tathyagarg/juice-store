@@ -1,3 +1,7 @@
+<script lang="ts">
+  import Navbar from "$lib/components/Navbar.svelte";
+</script>
+
 <div class="h-screen w-full flex">
-  <h1>Hello, World!</h1>
+  <Navbar />
 </div>
